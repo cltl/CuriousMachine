@@ -5,16 +5,18 @@ import collections
 
 sparql = SPARQLWrapper("http://sparql.fii800.lod.labs.vu.nl/sparql")
 
-def remove_outliers(data, m = 1.5):
-    if not len(data):
-        return data
-    if len(data)==1:
-        return data
-    data=np.array(data)
+def make_storable(url):
+    return url.split('/')[-1]
+
+def remove_outliers(indata, m = 1.5):
+    if not len(indata):
+        return indata
+    if len(indata)==1:
+        return indata
+    data=np.array(indata)
     d = np.abs(data - np.median(data))
     mdev = np.median(d)
     s = d/mdev if mdev else 0.
-    print(data)
     return data[s<m]
 
 def plot_me(d): # plot a dictionary with counts
@@ -36,8 +38,21 @@ def sparql_aggregate(query):
    
     to_return=collections.OrderedDict()
     for result in results["results"]["bindings"]:
-        if int(result["agg"]["value"])>=0:
-            to_return[int(result["agg"]["value"])]=int(result["cnt"]["value"])
+        try:
+            if int(result["agg"]["value"])>=0:
+                to_return[int(result["agg"]["value"])]=int(result["cnt"]["value"])
+        except:
+            to_return[result["agg"]["value"]]=int(result["cnt"]["value"])
+    return to_return
+
+def sparql_set(query):
+    sparql.setQuery(query)
+    sparql.setReturnFormat(JSON)
+    results = sparql.query().convert()
+   
+    to_return=set()
+    for result in results["results"]["bindings"]:
+            to_return.add(result["agg"]["value"])
     return to_return
 
 def sparql_ask_query(query):

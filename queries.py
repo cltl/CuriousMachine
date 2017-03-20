@@ -3,16 +3,15 @@ import utils
 def get_most_frequent_attributes(a_type, how_much=10):
 
     query="""
-    SELECT ?agg count(DISTINCT ?entity) as ?cnt
+    SELECT ?agg
         WHERE {
         ?entity a <%s> ;
         ?agg ?value
         } GROUP BY ?agg
-         ORDER BY DESC(?cnt)
+         ORDER BY DESC(COUNT(?entity))
         LIMIT %d
     """ % (a_type, how_much)
-
-    return utils.sparql_aggregate(query)
+    return utils.sparql_set(query)
 
 def check_if_subtype(c1, c2):
     query="""
@@ -21,6 +20,19 @@ def check_if_subtype(c1, c2):
     } 
     """ % (c1, c2)
     return utils.sparql_ask_query(query)
+
+# Get distribution for a random attribute of a type
+def get_dist_for_type_attribute(a_type, attr):
+    query="""
+    SELECT ?agg count(?entity) as ?cnt
+        WHERE {
+        ?entity a <%s> ;
+         <%s> ?agg
+        } GROUP BY ?agg
+        ORDER BY (?cnt)
+    """ % (a_type, attr)
+
+    return utils.sparql_aggregate(query)
 
 # Lifespan for dead people
 def get_lifespan_for_type(a_type):
