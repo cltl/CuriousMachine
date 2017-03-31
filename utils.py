@@ -2,8 +2,23 @@ from SPARQLWrapper import SPARQLWrapper, JSON
 import matplotlib.pyplot as plt
 import numpy as np
 import collections
+import pickle
+from rdflib import Graph, RDF
 
 sparql = SPARQLWrapper("http://sparql.fii800.lod.labs.vu.nl/sparql")
+
+def extract_all_dudes(persontype, infile, outfile):
+
+    g=Graph()
+    print("Graph loading...")
+    g.parse(infile, format='nt')
+    all_people=set()
+    print("Graph loaded")
+    for person in g.subjects(RDF.type, persontype):
+        all_people.add(person.toPython())
+        #input('continue')
+
+    pickle.dump(all_people, open(outfile, 'wb'))
 
 def make_storable(url):
     return url.split('/')[-1]
