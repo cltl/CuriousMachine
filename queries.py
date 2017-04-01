@@ -14,6 +14,25 @@ def get_most_frequent_attributes(a_type, how_much=10):
     """ % (a_type, how_much)
     return utils.sparql_set(query)
 
+def get_label(rel):
+    query="""
+    SELECT ?label
+    WHERE {
+        <%s> rdfs:label ?label .
+        FILTER(lang(?label)='en')
+    } LIMIT 1
+    """ % rel
+    return utils.sparql_select_one(query)
+
+def check_if_instance(i1, c1):
+    query="""
+    ASK WHERE {
+        <%s> <http://www.wikidata.org/entity/P31s> ?c .
+        ?c <http://www.wikidata.org/entity/P31v> <%s> . 
+    } 
+    """ % (i1, c1)
+    return utils.sparql_ask_query(query)
+
 def check_if_subtype(c1, c2):
     query="""
     ASK WHERE {
