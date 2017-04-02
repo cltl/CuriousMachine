@@ -30,9 +30,12 @@ header+=clean_attributes.values()
 files=[statements_file]
 try:
     people_data=pickle.load(open('%s/wikidata-simple-statements.p' % INSTANCEDIR, 'rb'))
+    print("People data file found and loaded.")
 except:
+    print("People data file not found. Extracting now...")
     people_datas=utils.extract_relations_from_files(files, all_people, clean_attributes.keys(), INSTANCEDIR)
     people_data=people_datas[0]
+    print("People data extracted.")
 
 people_for_pandas=[]
 #firstN=list(people_data.keys())[:10]

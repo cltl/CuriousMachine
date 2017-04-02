@@ -6,7 +6,7 @@ from collections import defaultdict, OrderedDict
 import pickle
 from rdflib import Graph, RDF, Literal
 from dateutil import parser
-
+import sys
 import queries
 
 sparql = SPARQLWrapper("http://sparql.fii800.lod.labs.vu.nl/sparql")
@@ -19,6 +19,7 @@ WIKIDATA_END_ACTIVITY="http://www.wikidata.org/entity/P2032c"
 WIKIDATA_IDS="http://www.wikidata.org/entity/Q19847637"
 WIKIDATA_PEOPLE_IDS="http://www.wikidata.org/entity/Q19595382"
 
+"""
 def parse_date_literal(l):
 #    print(l)
     cleanl=l.replace('^^<http://www.w3.org/2001/XMLSchema#date', '').replace('^^<http://www.w3.org/2001/XMLSchema#gYearMonth', '').replace('^^<http://www.w3.org/2001/XMLSchema#gYear', '')
@@ -26,32 +27,39 @@ def parse_date_literal(l):
         return parser.parse(cleanl).year
     except ValueError:
         return int(cleanl[:4])
+"""
 
 def infer_lifespan(myjson):    
     if WIKIDATA_BDATE in myjson and WIKIDATA_DDATE in myjson:
         if not isinstance(myjson[WIKIDATA_DDATE], set) and not isinstance(myjson[WIKIDATA_BDATE], set):
-            return parse_date_literal(myjson[WIKIDATA_DDATE])-parse_date_literal(myjson[WIKIDATA_BDATE])
+            try:
+                return myjson[WIKIDATA_DDATE].year-myjson[WIKIDATA_BDATE].year
+            except:
+                print(myjson[WIKIDATA_DDATE], myjson[WIKIDATA_BDATE])
+                sys.exit(-1)
+        else:
+            print(myjson[WIKIDATA_DDATE], myjson[WIKIDATA_BDATE], "SET")
     else:
         return ""
 
 def get_professional_years(myjson):
     if WIKIDATA_START_ACTIVITY in myjson and WIKIDATA_END_ACTIVITY in myjson:
         if not isinstance(myjson[WIKIDATA_START_ACTIVITY], set) and not isinstance(myjson[WIKIDATA_END_ACTIVITY], set):
-            return parse_date_literal(myjson[WIKIDATA_END_ACTIVITY])-parse_date_literal(myjson[WIKIDATA_START_ACTIVITY])
+            return myjson[WIKIDATA_END_ACTIVITY].year-myjson[WIKIDATA_START_ACTIVITY].year
     else:
         return ""
 
 def get_first_activity_age(myjson):
     if WIKIDATA_BDATE in myjson and WIKIDATA_START_ACTIVITY in myjson:
         if not isinstance(myjson[WIKIDATA_START_ACTIVITY], set) and not isinstance(myjson[WIKIDATA_BDATE], set):
-            return parse_date_literal(myjson[WIKIDATA_START_ACTIVITY])-parse_date_literal(myjson[WIKIDATA_BDATE])
+            return myjson[WIKIDATA_START_ACTIVITY].year-myjson[WIKIDATA_BDATE].year
     else:
         return ""
 
 def get_last_activity_age(myjson):
     if WIKIDATA_END_ACTIVITY in myjson and WIKIDATA_DDATE in myjson:
         if not isinstance(myjson[WIKIDATA_DDATE], set) and not isinstance(myjson[WIKIDATA_END_ACTIVITY], set):
-            return parse_date_literal(myjson[WIKIDATA_DDATE])-parse_date_literal(myjson[WIKIDATA_END_ACTIVITY])
+            return myjson[WIKIDATA_DDATE].year-myjson[WIKIDATA_END_ACTIVITY].year
     else:
         return ""
 
@@ -78,6 +86,18 @@ def normalize_numeric(o):
         o=float(o.replace("^^<http://www.w3.org/2001/XMLSchema#decimal>", ""))
     return o
 
+def normalize_date(o):
+    if '^^<http://www.w3.org/2001/XMLSchema#date>' in o or '^^<http://www.w3.org/2001/XMLSchema#gYearMonth>' in o or '^^<http://www.w3.org/2001/XMLSchema#gYear>' in o:
+        clean_date=o.replace('^^<http://www.w3.org/2001/XMLSchema#date>', '').replace('^^<http://www.w3.org/2001/XMLSchema#gYearMonth>', '').replace('^^<http://www.w3.org/2001/XMLSchema#gYear>', '')
+        try:
+            return parser.parse(clean_date)
+        except ValueError:
+            print("Date not correct and can not be parsed: %s" % clean_date)
+            return None
+#parser.parse(clean_date[:4])
+    else:
+        return o
+
 def extract_relations_from_files(file_list, people_set, attribute_set, outdir):
     biggies=[]
     for input_file in file_list:
@@ -98,6 +118,8 @@ def extract_relations_from_files(file_list, people_set, attribute_set, outdir):
                     continue
 
                 obj=normalize_numeric(row[2])
+                if not isinstance(obj, float):
+                    obj=normalize_date(obj)
                 if obj==row[2]:
                     obj=normalize_url(obj)
                 if previous_subj: # if there has been a previous subject (any row after the first)
