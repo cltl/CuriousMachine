@@ -21,7 +21,8 @@ all_people=set(pickle.load(open(people_file, 'rb')))
 person_common_attributes=queries.get_most_frequent_attributes(person_ontology_uri, NUMATTR)
 clean_attributes=utils.clean_and_label_relations(person_common_attributes)
 
-header=clean_attributes.values()
+header=['instance uri', 'lifespan', 'active years', 'first activity', 'last activity']
+header+=clean_attributes.values()
 
 files=[statements_file]
 try:
@@ -30,11 +31,12 @@ except:
     people_datas=utils.extract_relations_from_files(files, all_people, clean_attributes.keys(), INSTANCEDIR)
     people_data=people_datas[0]
 
-
 people_for_pandas=[]
+#firstN=list(people_data.keys())[:10]
 for person_uri in people_data:
     person_from_json=people_data[person_uri]
-    person_for_pandas=[]
+    person_for_pandas=[person_uri] + utils.infer_properties(person_from_json)
+
     for attruri, attrlabel in clean_attributes.items():
         if attruri in person_from_json:
             person_for_pandas.append(person_from_json[attruri])
@@ -45,9 +47,16 @@ for person_uri in people_data:
 frame=pd.DataFrame(people_for_pandas)
 frame.columns=header
 
+"""
 for i, row in frame.iterrows():
+    print(row['instance uri'])
     print(row['occupation'])
     print(row['religion'])
 
+    print(row['lifespan'])
+    print(row['active years'])
+    print(row['first activity'])
+    print(row['last activity'])
+"""
 frame.to_csv('%s/%s' % (INSTANCEDIR, TSVFILENAME), '\t')
 

@@ -4,49 +4,63 @@ import matplotlib.pyplot as plt
 import numpy as np
 from collections import defaultdict, OrderedDict
 import pickle
-from rdflib import Graph, RDF
+from rdflib import Graph, RDF, Literal
+from dateutil import parser
 
 import queries
 
 sparql = SPARQLWrapper("http://sparql.fii800.lod.labs.vu.nl/sparql")
 
-WIKIDATA_BDATE="https://www.wikidata.org/wiki/Property:P569"
-WIKIDATA_DDATE="https://www.wikidata.org/wiki/Property:P570"
-WIKIDATA_START_ACTIVITY=""
-WIKIDATA_END_ACTIVITY=""
+WIKIDATA_BDATE="http://www.wikidata.org/entity/P569c"
+WIKIDATA_DDATE="http://www.wikidata.org/entity/P570c"
+WIKIDATA_START_ACTIVITY="http://www.wikidata.org/entity/P2031c"
+WIKIDATA_END_ACTIVITY="http://www.wikidata.org/entity/P2032c"
 
 WIKIDATA_PEOPLE_IDS="http://www.wikidata.org/entity/Q19595382"
 
-def infer_lifespan(myjson):
-    
+def parse_date_literal(l):
+#    print(l)
+    cleanl=l.replace('^^<http://www.w3.org/2001/XMLSchema#date', '').replace('^^<http://www.w3.org/2001/XMLSchema#gYearMonth', '').replace('^^<http://www.w3.org/2001/XMLSchema#gYear', '')
+    try:
+        return parser.parse(cleanl).year
+    except ValueError:
+        return int(cleanl[:4])
+
+def infer_lifespan(myjson):    
     if WIKIDATA_BDATE in myjson and WIKIDATA_DDATE in myjson:
-        return WIKIDATA_DDATE-WIKIDATA_BDATE
+        if not isinstance(myjson[WIKIDATA_DDATE], set) and not isinstance(myjson[WIKIDATA_BDATE], set):
+            return parse_date_literal(myjson[WIKIDATA_DDATE])-parse_date_literal(myjson[WIKIDATA_BDATE])
     else:
-        return None
+        return ""
 
 def get_professional_years(myjson):
-    return None
+    if WIKIDATA_START_ACTIVITY in myjson and WIKIDATA_END_ACTIVITY in myjson:
+        if not isinstance(myjson[WIKIDATA_START_ACTIVITY], set) and not isinstance(myjson[WIKIDATA_END_ACTIVITY], set):
+            return parse_date_literal(myjson[WIKIDATA_END_ACTIVITY])-parse_date_literal(myjson[WIKIDATA_START_ACTIVITY])
+    else:
+        return ""
 
 def get_first_activity_age(myjson):
-    return None
+    if WIKIDATA_BDATE in myjson and WIKIDATA_START_ACTIVITY in myjson:
+        if not isinstance(myjson[WIKIDATA_START_ACTIVITY], set) and not isinstance(myjson[WIKIDATA_BDATE], set):
+            return parse_date_literal(myjson[WIKIDATA_START_ACTIVITY])-parse_date_literal(myjson[WIKIDATA_BDATE])
+    else:
+        return ""
 
 def get_last_activity_age(myjson):
-    return None
+    if WIKIDATA_END_ACTIVITY in myjson and WIKIDATA_DDATE in myjson:
+        if not isinstance(myjson[WIKIDATA_DDATE], set) and not isinstance(myjson[WIKIDATA_END_ACTIVITY], set):
+            return parse_date_literal(myjson[WIKIDATA_DDATE])-parse_date_literal(myjson[WIKIDATA_END_ACTIVITY])
+    else:
+        return ""
 
 def infer_properties(myjson):
     lifespan=infer_lifespan(myjson) 
     proyears=get_professional_years(myjson)
     firstactivity=get_first_activity_age(myjson)
     lastactivity=get_last_activity_age(myjson)
-    if lifespan:
-        myjson['lifespan']=lifespan
-    if proyears:
-        myjson['proyears']=proyears
-    if firstactivity:
-        myjson['firstactivity']=firstactivity
-    if lastactivity:
-        myjson['lastactivity']=lastactivity
-    return myjson
+    inferred_data=[lifespan, proyears, firstactivity, lastactivity]
+    return inferred_data
 
 def normalize_url(u):
     return u.lstrip('<').rstrip('>')
