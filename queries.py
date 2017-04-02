@@ -41,6 +41,16 @@ def check_if_subtype(c1, c2):
     """ % (c1, c2)
     return utils.sparql_ask_query(query)
 
+def check_instance_or_subclass(i1, c2):
+    query="""
+    ASK WHERE {
+        <%s> <http://www.wikidata.org/entity/P31s> ?c .
+        ?c <http://www.wikidata.org/entity/P31v> ?c2 . 
+        ?c2 <http://www.wikidata.org/entity/P279c> <%s>
+    }
+    """ % (i1, c2)
+    return utils.sparql_ask_query(query)
+
 # Get distribution for a random attribute of a type
 def get_dist_for_type_attribute(a_type, attr):
     query="""

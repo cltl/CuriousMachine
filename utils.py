@@ -16,6 +16,7 @@ WIKIDATA_DDATE="http://www.wikidata.org/entity/P570c"
 WIKIDATA_START_ACTIVITY="http://www.wikidata.org/entity/P2031c"
 WIKIDATA_END_ACTIVITY="http://www.wikidata.org/entity/P2032c"
 
+WIKIDATA_IDS="http://www.wikidata.org/entity/Q19847637"
 WIKIDATA_PEOPLE_IDS="http://www.wikidata.org/entity/Q19595382"
 
 def parse_date_literal(l):
@@ -68,9 +69,14 @@ def normalize_url(u):
 def clean_and_label_relations(rels):
     newrels={}
     for r in rels:
-        if not queries.check_if_instance(r.rstrip('c'), WIKIDATA_PEOPLE_IDS):
+        if not queries.check_if_instance(r.rstrip('c'), WIKIDATA_PEOPLE_IDS) and not queries.check_instance_or_subclass(r.rstrip('c'), WIKIDATA_IDS):
             newrels[r]=queries.get_label(r.rstrip('c')) or r
     return newrels
+
+def normalize_numeric(o):
+    if "^^<http://www.w3.org/2001/XMLSchema#decimal>" in o:
+        o=float(o.replace("^^<http://www.w3.org/2001/XMLSchema#decimal>", ""))
+    return o
 
 def extract_relations_from_files(file_list, people_set, attribute_set, outdir):
     biggies=[]
@@ -91,7 +97,9 @@ def extract_relations_from_files(file_list, people_set, attribute_set, outdir):
                 if pred not in attribute_set: # if the attribute is not of interest
                     continue
 
-                obj=normalize_url(row[2])
+                obj=normalize_numeric(row[2])
+                if obj==row[2]:
+                    obj=normalize_url(obj)
                 if previous_subj: # if there has been a previous subject (any row after the first)
                     if previous_subj==subj: # if the subject is still the same, just extend the json
                         if pred not in subj_json:
