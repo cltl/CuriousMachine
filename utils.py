@@ -77,6 +77,9 @@ def infer_properties(myjson, key):
     inferred_data=[lifespan, proyears, firstactivity, lastactivity]
     return inferred_data
 
+def normalize_freebase(fb1):
+    return fb1.replace("http://rdf.freebase.com/ns/m.", "/m/")
+
 def normalize_url(u):
     return u.lstrip('<').rstrip('>')
 

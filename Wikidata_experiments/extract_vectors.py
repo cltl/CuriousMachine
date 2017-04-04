@@ -6,7 +6,7 @@ def normalize_freebase(fb1):
     return fb1.replace("http://rdf.freebase.com/ns/m.", "/m/")
 
 INSTANCEDIR='instance_data'
-freebase_txt="%s/freebase-skipgram1000.txt" % INSTANCEDIR
+freebase_txt="%s/freebase/freebase-skipgram1000.txt" % INSTANCEDIR
 #freebase_txt="%s/freebase/test-freebase.txt" % INSTANCEDIR
 filename="%s/tabular_person_data.tsv" % INSTANCEDIR
 df=pd.read_csv(filename, '\t')
@@ -27,7 +27,7 @@ except:
             fid, *numbers=line.split()
     #        print(len(numbers))
             if len(numbers)>10 and fid in freebase_people_uris:
-                numbers=list(map(int, numbers))
+                numbers=list(map(float, numbers))
                 vector_json[fid]=numbers
 
     pickle.dump(vector_json, open('%s/freebase_vectors.p' % INSTANCEDIR, 'wb'))

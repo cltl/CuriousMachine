@@ -52,7 +52,7 @@ def inspect_field(df, indexes):
                 c+=1
     print("%d non-floats" % (c))
 
-infer_types(df, 'str')
-#count_non_nils()
+#infer_types(df, 'str')
+count_non_nils()
 #inspect_field(df, [8,37])
 #inspect_dates(df)
