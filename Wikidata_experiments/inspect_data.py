@@ -28,13 +28,14 @@ def inspect_dates(df):
     dob="date of birth"
     dod="date of death"
     attr=[dob,dod]
+    attr=['embeddings']
     c=0
     for index, row in df.iterrows():
         for a in attr:
-            if not pd.isnull(row[a]) and isinstance(row[a], set):
-                print(row['instance uri'], a, row[a])
+            if not pd.isnull(row[a]) and not isinstance(row[a], set):
+                #print(row['instance uri'], a, row[a])
                 c+=1
-    print("%d sets in the data for date types" % c)
+    print("%d LISTS in the data for date types" % c)
 
 def inspect_field(df, indexes):
     fields=[]
@@ -53,6 +54,6 @@ def inspect_field(df, indexes):
     print("%d non-floats" % (c))
 
 #infer_types(df, 'str')
-count_non_nils()
+#count_non_nils()
 #inspect_field(df, [8,37])
-#inspect_dates(df)
+inspect_dates(df)
