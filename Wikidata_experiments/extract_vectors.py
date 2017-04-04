@@ -22,5 +22,5 @@ except:
             if len(numbers)>10 and fid in freebase_people_uris:
                 vector_json[fid]=numbers
 
-    pickle.dump(vector_json, open('%s/freebase_vectors.p' % INSTANCEDIR, 'rb'))
+    pickle.dump(vector_json, open('%s/freebase_vectors.p' % INSTANCEDIR, 'wb'))
             
