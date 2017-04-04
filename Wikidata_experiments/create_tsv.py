@@ -43,7 +43,8 @@ for person_uri in people_data:
     person_from_json=people_data[person_uri]
     person_for_pandas=[]
     person_for_pandas.append(person_uri)
-    person_for_pandas+=utils.infer_properties(person_from_json)
+    person_from_json=utils.sets_to_dates(person_from_json)
+    person_for_pandas+=utils.infer_properties(person_from_json, person_uri)
 
     for attruri, attrlabel in clean_attributes.items():
         if attruri in person_from_json:
@@ -54,6 +55,9 @@ for person_uri in people_data:
 
 frame=pd.DataFrame(people_for_pandas)
 frame.columns=header
+
+fields_to_fix=['height', 'sport number']
+frame[fields_to_fix] = frame[fields_to_fix].apply(pd.to_numeric, errors='coerce')
 
 """
 for i, row in frame.iterrows():

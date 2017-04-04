@@ -28,8 +28,14 @@ def parse_date_literal(l):
     except ValueError:
         return int(cleanl[:4])
 """
+def sets_to_dates(myjson):
+    for attr in [WIKIDATA_BDATE, WIKIDATA_DDATE]:
+        if attr in myjson and isinstance(myjson[attr], set):
+            myjson[attr]=myjson[attr].pop()
+    return myjson
+         
 
-def infer_lifespan(myjson):    
+def infer_lifespan(myjson, key):    
     if WIKIDATA_BDATE in myjson and WIKIDATA_DDATE in myjson:
         if not isinstance(myjson[WIKIDATA_DDATE], set) and not isinstance(myjson[WIKIDATA_BDATE], set):
             try:
@@ -38,7 +44,7 @@ def infer_lifespan(myjson):
                 print(myjson[WIKIDATA_DDATE], myjson[WIKIDATA_BDATE])
                 sys.exit(-1)
         else:
-            print(myjson[WIKIDATA_DDATE], myjson[WIKIDATA_BDATE], "SET")
+            print(key, myjson[WIKIDATA_DDATE], myjson[WIKIDATA_BDATE], "SET")
     else:
         return ""
 
@@ -63,8 +69,8 @@ def get_last_activity_age(myjson):
     else:
         return ""
 
-def infer_properties(myjson):
-    lifespan=infer_lifespan(myjson) 
+def infer_properties(myjson, key):
+    lifespan=infer_lifespan(myjson, key) 
     proyears=get_professional_years(myjson)
     firstactivity=get_first_activity_age(myjson)
     lastactivity=get_last_activity_age(myjson)
@@ -122,6 +128,8 @@ def extract_relations_from_files(file_list, people_set, attribute_set, outdir):
                     obj=normalize_date(obj)
                 if obj==row[2]:
                     obj=normalize_url(obj)
+                if obj is None:
+                    continue
                 if previous_subj: # if there has been a previous subject (any row after the first)
                     if previous_subj==subj: # if the subject is still the same, just extend the json
                         if pred not in subj_json:
