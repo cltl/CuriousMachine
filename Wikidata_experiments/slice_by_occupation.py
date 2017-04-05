@@ -29,5 +29,10 @@ for index, row in df.iterrows():
 print(len(new_rows))
 frame=pd.DataFrame(new_rows)
 frame.columns=df.columns
+
+print('%d columns before removing NIL columns' % len(frame.columns))
+frame=frame.dropna(axis=1, how='all')
+print('%d columns after removing NIL columns' % len(frame.columns))
+
 frame.to_csv('%s/%s' % (INSTANCEDIR, occupation_tsv), '\t')
 #print(df['occupation'].str.contains('http://www.wikidata.org/entity/Q82955'))

@@ -87,6 +87,11 @@ frame.columns=header
 fields_to_fix=['height', 'sport number']
 frame[fields_to_fix] = frame[fields_to_fix].apply(pd.to_numeric, errors='coerce')
 
+print('%d columns before removing NIL columns' % len(frame.columns))
+frame=frame.dropna(axis=1, how='all')
+print('%d columns after removing NIL columns' % len(frame.columns))
+
+
 """
 for i, row in frame.iterrows():
     print(row['instance uri'])
