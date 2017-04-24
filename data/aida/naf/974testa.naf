@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3">
+  <raw><![CDATA[CRICKET - AUSTRALIA 228-9 IN 50 OVERS V SRI LANKA . COLOMBO 1996-08-30 Australia scored 228 for nine wickets in their 50 overs against Sri Lanka in the third day-night limited overs match of the Singer World Series tournament on Friday . ]]></raw>
+  <nafHeader>
+    <public uri="http://example.com/aida/974testa" publicId="974testa"/>
+    <fileDesc title="974testa" filename="974testa" creationtime="1996-08-30"/>
+  </nafHeader>
+</NAF>

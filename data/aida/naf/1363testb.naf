@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3">
+  <raw><![CDATA[SOCCER - LEADING ENGLISH GOALSCORERS . LONDON 1996-12-07 Leading goalscorers in the English premier league after Saturday 's matches : 13 - Ian Wright ( Arsenal ) 9 - Fabrizio Ravanelli ( Middlesbrough ) , Alan Shearer ( Newcastle ) 8 - Matthew Le Tissier ( Southampton ) , Dwight Yorke ( Aston Villa ) , Les Ferdinand ( Newcastle ) , Efan Ekoku ( Wimbledon ) , Gianluca Vialli ( Chelsea ) 7 - Robbie Earle ( Wimbledon ) , Les Ferdinand ( Newcastle ) 6 - Marcus Gayle ( Wimbledon ) , Gary Speed ( Everton ) , Chris Sutton ( Blackburn ) 5 - Robbie Fowler ( Liverpool ) , Steve McManaman ( Liverpool ) 4 - Peter Beardsley ( Newcastle ) . ]]></raw>
+  <nafHeader>
+    <public uri="http://example.com/aida/1363testb" publicId="1363testb"/>
+    <fileDesc title="1363testb" filename="1363testb" creationtime="1996-12-07"/>
+  </nafHeader>
+</NAF>

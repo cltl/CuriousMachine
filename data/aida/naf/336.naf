@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3">
+  <raw><![CDATA[TENNIS - RESULTS AT CANADIAN OPEN . TORONTO 1996-08-24 Results from the Canadian Open tennis tournament on Saturday ( prefix numbers denotes seedings ) : Semifinals 3 - Wayne Ferreira ( South Africa ) beat 7 - Todd Martin ( U.S. ) 4-6 6-3 7-5 Todd Woodbridge ( Australia ) beat 4 - Marcelo Rios ( Chile ) 6-0 6-3 ]]></raw>
+  <nafHeader>
+    <public uri="http://example.com/aida/336" publicId="336"/>
+    <fileDesc title="336" filename="336" creationtime="1996-08-24"/>
+  </nafHeader>
+</NAF>

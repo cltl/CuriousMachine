@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3">
+  <raw><![CDATA[SOCCER - SCOTTISH THIRD DIVISION RESULT . GLASGOW 1996-08-23 Result of a Scottish third division soccer match on Friday : East Stirling 0 Albion 1 ]]></raw>
+  <nafHeader>
+    <public uri="http://example.com/aida/134" publicId="134"/>
+    <fileDesc title="134" filename="134" creationtime="1996-08-23"/>
+  </nafHeader>
+</NAF>

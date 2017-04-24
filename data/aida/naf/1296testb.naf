@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3">
+  <raw><![CDATA[LUXEMBOURG CHRISTMAS MARKET GOES ON WORLD WIDE WEB . BRUSSELS 1996-12-06 Luxembourg 's traditional Christmas market , which starts on Saturday and runs to December 24 , has taken to the world wide web as a way of publicising its activities . The web site ( http://www.pt.lu/infoweb/kreschtmaart ) gives details of the market 's concert programme as well as its various retailers . -- Brussels Newsroom +32 2 287 6810 , Fax +32 2 230 7710 ]]></raw>
+  <nafHeader>
+    <public uri="http://example.com/aida/1296testb" publicId="1296testb"/>
+    <fileDesc title="1296testb" filename="1296testb" creationtime="1996-12-06"/>
+  </nafHeader>
+</NAF>

@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3">
+  <raw><![CDATA[SOCCER - PORTUGUESE FIRST DIVISION RESULTS . LISBON 1996-08-25 Results of Portuguese first division soccer matches on Sunday : FC Porto 2 Setubal 2 Benfica 1 Braga 1 Guimaraes 4 Gil Vicente 2 ]]></raw>
+  <nafHeader>
+    <public uri="http://example.com/aida/354" publicId="354"/>
+    <fileDesc title="354" filename="354" creationtime="1996-08-25"/>
+  </nafHeader>
+</NAF>

@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3">
+  <raw><![CDATA[CRICKET - PAKISTAN DECLARE FIRST INNINGS AT 521-8 . LONDON 1996-08-25 Pakistan declared their first innings at 521-8 on the fourth day of the third and final test against England at The Oval on Sunday . Scores : England 326 ; Pakistan 521-8 . ]]></raw>
+  <nafHeader>
+    <public uri="http://example.com/aida/330" publicId="330"/>
+    <fileDesc title="330" filename="330" creationtime="1996-08-25"/>
+  </nafHeader>
+</NAF>

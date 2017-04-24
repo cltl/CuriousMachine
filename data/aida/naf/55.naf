@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3">
+  <raw><![CDATA[SOCCER - DUTCH FIRST DIVISION SUMMARY . AMSTERDAM 1996-08-22 Summary of Thursday 's only Dutch first division match : NEC Nijmegen 1 ( Van Eykeren 15th ) PSV Eindhoven 4 ( Numan 11th , Nilis 42nd , Cocu 54th , 67th ) . Halftime 1-2 . Attendance 8,000 ]]></raw>
+  <nafHeader>
+    <public uri="http://example.com/aida/55" publicId="55"/>
+    <fileDesc title="55" filename="55" creationtime="1996-08-22"/>
+  </nafHeader>
+</NAF>

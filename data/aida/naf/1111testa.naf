@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3">
+  <raw><![CDATA[BOXING - MILLER DEFENDS WBA CRUISERWEIGHT TITLE . DUBLIN 1996-08-31 American Nate Miller successfully defended his WBA cruiserweight title when he knocked out compatriot James Heath in the seventh round of their bout on Saturday . ]]></raw>
+  <nafHeader>
+    <public uri="http://example.com/aida/1111testa" publicId="1111testa"/>
+    <fileDesc title="1111testa" filename="1111testa" creationtime="1996-08-31"/>
+  </nafHeader>
+</NAF>

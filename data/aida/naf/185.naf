@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3">
+  <raw><![CDATA[Germany , Poland tighten cooperation against crime . WARSAW 1996-08-23 Germany and Poland agreed on Friday to tighten cooperation between their intelligence services in fighting international organised crime , PAP news agency reported . Interior Minister Zbigniew Siemiatkowski and Bernd Schmidbauer , German intelligence co-ordinator in Helmut Kohl 's chancellery , sealed the closer links during talks in Warsaw . Ministry spokesman Ryszard Hincza told the Polish agency the services would work together against mafia-style groups , drug smuggling and illegal trade in arms and radioactive materials . ]]></raw>
+  <nafHeader>
+    <public uri="http://example.com/aida/185" publicId="185"/>
+    <fileDesc title="185" filename="185" creationtime="1996-08-23"/>
+  </nafHeader>
+</NAF>

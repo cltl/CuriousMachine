@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3">
+  <raw><![CDATA[SOCCER - GERMAN CUP SECOND ROUND RESULTS . BONN 1996-08-31 Results of German Cup second round matches on Saturday : Karlsruhe 2 Hansa Rostock 0 Borussia Neunkirchen 1 St Pauli 3 Duisburg 1 Luebeck 0 ( after extra time ) ]]></raw>
+  <nafHeader>
+    <public uri="http://example.com/aida/1114testa" publicId="1114testa"/>
+    <fileDesc title="1114testa" filename="1114testa" creationtime="1996-08-31"/>
+  </nafHeader>
+</NAF>

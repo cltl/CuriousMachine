@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3">
+  <raw><![CDATA[SOCCER - LEADING FRENCH LEAGUE SCORERS . PARIS 1996-08-28 Leading scorers in the French first division after Wednesday 's matches : 3 - Anton Drobnjak ( Bastia ) , Vladimir Smicer ( Lens ) , Miladin Becanovic ( Lille ) , Alain Caveglia ( Lyon ) , Xavier Gravelaine ( Marseille ) , Robert Pires ( Metz ) , Thierry Henry ( Monaco ) 2 - Christopher Wreh ( Guingamp ) , Marc-Vivien Foe ( Lens ) , Enzo Scifo ( Monaco ) , James Debbah ( Nice ) , Patrice Loko ( PSG ) , Stephane Guivarch ( Rennes ) ]]></raw>
+  <nafHeader>
+    <public uri="http://example.com/aida/677" publicId="677"/>
+    <fileDesc title="677" filename="677" creationtime="1996-08-28"/>
+  </nafHeader>
+</NAF>

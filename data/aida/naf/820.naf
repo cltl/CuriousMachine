@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3">
+  <raw><![CDATA[BASEBALL - MAJOR LEAGUE RESULTS WEDNESDAY . NEW YORK 1996-08-29 Results of Major League Baseball games played on Wednesday ( home team in CAPS ) : National League COLORADO 10 Cincinnati 9 MONTREAL 6 Los Angeles 5 Atlanta 9 PITTSBURGH 4 San Diego 3 NEW YORK 2 ( 10 innings ) HOUSTON 5 Chicago 4 ( 11 innings ) Florida 3 ST LOUIS 2 ( 10 innings ) SAN FRANCISCO 7 Philadelphia 6 American League Cleveland 9 DETROIT 3 CHICAGO 2 Milwaukee 0 Oakland 3 BALTIMORE 0 TORONTO 6 Minnesota 1 KANSAS CITY 4 Texas 3 ( 12 innings ) Boston 7 CALIFORNIA 4 SEATTLE 10 New York 2 ]]></raw>
+  <nafHeader>
+    <public uri="http://example.com/aida/820" publicId="820"/>
+    <fileDesc title="820" filename="820" creationtime="1996-08-29"/>
+  </nafHeader>
+</NAF>

@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3">
+  <raw><![CDATA[Frankfurt dollar fix 1.5338 marks . FRANKFURT 1996-12-06 The dollar was fixed at 1.5338 marks in Frankfurt on Friday , after 1.5607 marks on Thursday . There was no Bundesbank intervention . ]]></raw>
+  <nafHeader>
+    <public uri="http://example.com/aida/1323testb" publicId="1323testb"/>
+    <fileDesc title="1323testb" filename="1323testb" creationtime="1996-12-06"/>
+  </nafHeader>
+</NAF>

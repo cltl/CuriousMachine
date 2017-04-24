@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3">
+  <raw><![CDATA[France hands suspected ETA member to Spain . PARIS 1996-08-24 France on Saturday handed a suspected member of the Basque separatist group ETA to Spanish authorities , French Interior Ministry officials said . Ignacio Olascoaga Mugica , who had just ended a prison sentence in France , is suspected of having taken part in several guerrilla attacks in Spain . ETA ( Basque Homeland and Freedom ) has killed about 800 people in its campaign for an independent Basque state since the 1960s . ]]></raw>
+  <nafHeader>
+    <public uri="http://example.com/aida/298" publicId="298"/>
+    <fileDesc title="298" filename="298" creationtime="1996-08-24"/>
+  </nafHeader>
+</NAF>
