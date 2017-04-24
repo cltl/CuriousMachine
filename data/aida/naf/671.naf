@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<NAF xml:lang="en" version="v3">
-  <raw><![CDATA[SOCCER - BARCELONA WIN SPANISH SUPER CUP . MADRID 1996-08-28 Result of the Spanish Super Cup , second leg , played on Wednesday : Atletico Madrid 3 Barcelona 1 ( Barcelona win 6-5 on aggregate ) ]]></raw>
-  <nafHeader>
-    <public uri="http://example.com/aida/671" publicId="671"/>
-    <fileDesc title="671" filename="671" creationtime="1996-08-28"/>
-  </nafHeader>
-</NAF>

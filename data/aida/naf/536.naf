@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<NAF xml:lang="en" version="v3">
-  <raw><![CDATA[SOCCER - FRENCH FIRST DIVISION SUMMARY . PARIS 1996-08-27 Summary of a French first division soccer match on Tuesday : Auxerre 0 Marseille 0 . Attendance : 20,000 ]]></raw>
-  <nafHeader>
-    <public uri="http://example.com/aida/536" publicId="536"/>
-    <fileDesc title="536" filename="536" creationtime="1996-08-27"/>
-  </nafHeader>
-</NAF>

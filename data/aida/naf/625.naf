@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<NAF xml:lang="en" version="v3">
-  <raw><![CDATA[Indonesia 's SBPUs auction results . JAKARTA 1996-08-27 The following is the result of central bank securities ( SBPUs ) auction on Tuesday at 0800 GMT : SBPUs seven-day 14-day Cut-off-rate ( percent ) 15.75 16.00 Total ( in billion rupiah ) 38.43 218.50 -- Jakarta newsroom +6221 384-6364 ]]></raw>
-  <nafHeader>
-    <public uri="http://example.com/aida/625" publicId="625"/>
-    <fileDesc title="625" filename="625" creationtime="1996-08-27"/>
-  </nafHeader>
-</NAF>

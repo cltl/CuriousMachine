@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<NAF xml:lang="en" version="v3">
-  <raw><![CDATA[SOCCER - ENGLISH FIRST DIVISION RESULTS . LONDON 1996-08-23 Results of English first division soccer matches on Friday : Portsmouth 1 Queens Park Rangers 2 Tranmere 3 Grimsby 2 ]]></raw>
-  <nafHeader>
-    <public uri="http://example.com/aida/133" publicId="133"/>
-    <fileDesc title="133" filename="133" creationtime="1996-08-23"/>
-  </nafHeader>
-</NAF>

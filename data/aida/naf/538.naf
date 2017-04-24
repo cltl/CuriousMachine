@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<NAF xml:lang="en" version="v3">
-  <raw><![CDATA[SOCCER - FRENCH FIRST DIVISION RESULT . PARIS 1996-08-27 Result of a French first division soccer match played on Tuesday : Auxerre 0 Marseille 0 ]]></raw>
-  <nafHeader>
-    <public uri="http://example.com/aida/538" publicId="538"/>
-    <fileDesc title="538" filename="538" creationtime="1996-08-27"/>
-  </nafHeader>
-</NAF>

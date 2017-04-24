@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<NAF xml:lang="en" version="v3">
-  <raw><![CDATA[SIMEX Brent closed on Monday owing to IPE holiday . SINGAPORE 1996-08-26 The Brent crude futures market on the Singapore International Monetary Exchange ( SIMEX ) was closed on Monday in respect for a U.K. national holiday . THE SIMEX Brent market keeps to the trading schedule of the International Petroleum Exchange ( IPE ) in London , which is closed for a British bank holiday . Contracts traded in Singapore are mutually offset against contracts traded in London . -- Singapore Newsroom ( +65 870 3081 ) ]]></raw>
-  <nafHeader>
-    <public uri="http://example.com/aida/471" publicId="471"/>
-    <fileDesc title="471" filename="471" creationtime="1996-08-26"/>
-  </nafHeader>
-</NAF>

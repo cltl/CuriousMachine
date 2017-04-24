@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<NAF xml:lang="en" version="v3">
-  <raw><![CDATA[USDA gross cutout hide and offal value . DES MOINES 1996-12-06 The hide and offal value from a typical slaughter steer for Friday was estimated at $ 9.54 per cwt live , dn 0.05 when compared to Thursday 's value . - USDA ]]></raw>
-  <nafHeader>
-    <public uri="http://example.com/aida/1237testb" publicId="1237testb"/>
-    <fileDesc title="1237testb" filename="1237testb" creationtime="1996-12-06"/>
-  </nafHeader>
-</NAF>

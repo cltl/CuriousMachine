@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<NAF xml:lang="en" version="v3">
-  <raw><![CDATA[U.S. DLA sets tin price at $ 2.7975 per lb . WASHINGTON 1996-08-29 The U.S. Defense Logistics Agency set Thursday 's offering price for stockpile tin at $ 2.7975 per lb , versus $ 2.7775 per lb yesterday . ]]></raw>
-  <nafHeader>
-    <public uri="http://example.com/aida/871" publicId="871"/>
-    <fileDesc title="871" filename="871" creationtime="1996-08-29"/>
-  </nafHeader>
-</NAF>

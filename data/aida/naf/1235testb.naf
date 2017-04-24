@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<NAF xml:lang="en" version="v3">
-  <raw><![CDATA[Dirty tanker fixtures and enquiries - 2317 GMT . NEW YORK 1996-12-06 MIDEAST / RED SEA - Thai Resource 264 31/12 Ras Tanura / Red Sea W46.50 Mobil . MEDITERRANEAN - Lula I 85 25/12 Sidi Kreir / Augusta W100 Exxon . Spetses 139 17/12 Sidi Kreir / Augusta W97.50 Exxon . Mesipia 77.5 17/12 Bajaia / Fos W105 Exxon . -- New York Commodities Desk +1 212 859 1640 ]]></raw>
-  <nafHeader>
-    <public uri="http://example.com/aida/1235testb" publicId="1235testb"/>
-    <fileDesc title="1235testb" filename="1235testb" creationtime="1996-12-06"/>
-  </nafHeader>
-</NAF>

@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<NAF xml:lang="en" version="v3">
-  <raw><![CDATA[Clean tankers fixtures and enquiries - 2321 GMT . NEW YORK 1996-12-06 FIXTURES - WESTERN HEMISPHERE - Danila 28.5 16/12 Caribs / up W224 Mobil . -- New York Commodities Desk , 212-859-1640 ]]></raw>
-  <nafHeader>
-    <public uri="http://example.com/aida/1234testb" publicId="1234testb"/>
-    <fileDesc title="1234testb" filename="1234testb" creationtime="1996-12-06"/>
-  </nafHeader>
-</NAF>

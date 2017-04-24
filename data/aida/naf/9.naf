@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<NAF xml:lang="en" version="v3">
-  <raw><![CDATA[Port conditions update - Syria - Lloyds Shipping . Port conditions from Lloyds Shipping Intelligence Service -- LATTAKIA , Aug 10 - waiting time at Lattakia and Tartous presently 24 hours . ]]></raw>
-  <nafHeader>
-    <public uri="http://example.com/aida/9" publicId="9"/>
-    <fileDesc title="9" filename="9" creationtime="1996-08-22"/>
-  </nafHeader>
-</NAF>

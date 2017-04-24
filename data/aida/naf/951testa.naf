@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<NAF xml:lang="en" version="v3">
-  <raw><![CDATA[BASKETBALL - INTERNATIONAL TOURNAMENT RESULT . BELGRADE 1996-08-30 Result in an international basketball tournament on Friday : Red Star ( Yugoslavia ) beat Dinamo ( Russia ) 92-90 ( halftime 47-47 ) ]]></raw>
-  <nafHeader>
-    <public uri="http://example.com/aida/951testa" publicId="951testa"/>
-    <fileDesc title="951testa" filename="951testa" creationtime="1996-08-30"/>
-  </nafHeader>
-</NAF>

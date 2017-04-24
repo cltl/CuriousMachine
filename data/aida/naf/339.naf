@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<NAF xml:lang="en" version="v3">
-  <raw><![CDATA[SOCCER - YUGOSLAV LEAGUE RESULTS . BELGRADE 1996-08-25 Results of Yugoslav league soccer matches played on Sunday : Division A Vojvodina 1 Partizan 1 Crvena zvezda 3 Proleter 1 Division B Zelesnik 0 Rudar 1 ]]></raw>
-  <nafHeader>
-    <public uri="http://example.com/aida/339" publicId="339"/>
-    <fileDesc title="339" filename="339" creationtime="1996-08-25"/>
-  </nafHeader>
-</NAF>

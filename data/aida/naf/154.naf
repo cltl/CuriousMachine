@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<NAF xml:lang="en" version="v3">
-  <raw><![CDATA[SOCCER - FRENCH LEAGUE RESULT . PARIS 1996-08-23 Result of a French first division match on Friday . Nancy 0 Paris St Germain 0 ]]></raw>
-  <nafHeader>
-    <public uri="http://example.com/aida/154" publicId="154"/>
-    <fileDesc title="154" filename="154" creationtime="1996-08-23"/>
-  </nafHeader>
-</NAF>

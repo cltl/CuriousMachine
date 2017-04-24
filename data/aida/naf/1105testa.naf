@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<NAF xml:lang="en" version="v3">
-  <raw><![CDATA[SOCCER - SUMMARY IN THE SPANISH FIRST DIVISION . MADRID 1996-08-30 Summary of game played in the Spanish first division on Saturday : Deportivo Coruna 1 ( Corentine Martins , 22nd minute ) Real Madrid 1 ( Roberto Carlos 79th ) . Halftime 1-0 . Attendancce 35,000 . ]]></raw>
-  <nafHeader>
-    <public uri="http://example.com/aida/1105testa" publicId="1105testa"/>
-    <fileDesc title="1105testa" filename="1105testa" creationtime="1996-08-30"/>
-  </nafHeader>
-</NAF>

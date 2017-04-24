@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<NAF xml:lang="en" version="v3">
-  <raw><![CDATA[SOCCER - ENGLISH F.A. CUP SECOND ROUND RESULT . LONDON 1996-12-06 Result of an English F.A. Challenge Cup second round match on Friday : Plymouth 4 Exeter 1 ]]></raw>
-  <nafHeader>
-    <public uri="http://example.com/aida/1169testb" publicId="1169testb"/>
-    <fileDesc title="1169testb" filename="1169testb" creationtime="1996-12-06"/>
-  </nafHeader>
-</NAF>

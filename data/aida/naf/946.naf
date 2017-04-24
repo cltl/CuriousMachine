@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<NAF xml:lang="en" version="v3">
-  <raw><![CDATA[SOCCER - ENGLISH SOCCER RESULTS . LONDON 1996-08-30 Results of English league matches on Friday : Division two Plymouth 2 Preston 1 Division three Swansea 1 Lincoln 2 ]]></raw>
-  <nafHeader>
-    <public uri="http://example.com/aida/946" publicId="946"/>
-    <fileDesc title="946" filename="946" creationtime="1996-08-30"/>
-  </nafHeader>
-</NAF>

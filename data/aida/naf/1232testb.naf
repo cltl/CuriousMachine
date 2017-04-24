@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<NAF xml:lang="en" version="v3">
-  <raw><![CDATA[New York timecharter fixtures - Dec 6 . NEW YORK 1996-12-06 No new fixtures reported from New York . -- New York Commodities Desk +1 212 859 1640 ]]></raw>
-  <nafHeader>
-    <public uri="http://example.com/aida/1232testb" publicId="1232testb"/>
-    <fileDesc title="1232testb" filename="1232testb" creationtime="1996-12-06"/>
-  </nafHeader>
-</NAF>
