@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3">
+  <raw><![CDATA[PRESS DIGEST - Washington Post business - Aug 26 . WASHINGTON 1996-08-26 The Washington Post carried only local business stories on August 26 , 1996 . ]]></raw>
+  <nafHeader>
+    <public uri="http://example.com/aida/494" publicId="494"/>
+    <fileDesc title="494" filename="494" creationtime="1996-08-26"/>
+  </nafHeader>
+</NAF>

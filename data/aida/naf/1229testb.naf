@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3">
+  <raw><![CDATA[Cricket - Pakistan beat New Zealand by 46 runs . SIALKOT , Pakistan 1996-12-06 Pakistan beat New Zealand by 46 runs on Friday to take an unbeatable 2-0 lead in the three-match one-day series . Scores : Pakistan 277-9 , New Zealand 231 ]]></raw>
+  <nafHeader>
+    <public uri="http://example.com/aida/1229testb" publicId="1229testb"/>
+    <fileDesc title="1229testb" filename="1229testb" creationtime="1996-12-06"/>
+  </nafHeader>
+</NAF>

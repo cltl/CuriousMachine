@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3">
+  <raw><![CDATA[Tambang Timah at $ 15.575 in London . LONDON 1996-12-07 PT Tambang Timah closed at $ 15.575 per GDR in London on Friday . It recorded the day 's low of $ 15.475 and the day 's high of $ 15.725 . It closed at $ 15.80 on Thursday . One Global Depository Receipt represents 10 common shares . -- Jakarta newsroom +6221 384-6364 ]]></raw>
+  <nafHeader>
+    <public uri="http://example.com/aida/1220testb" publicId="1220testb"/>
+    <fileDesc title="1220testb" filename="1220testb" creationtime="1996-12-07"/>
+  </nafHeader>
+</NAF>

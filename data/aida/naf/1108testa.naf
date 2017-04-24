@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3">
+  <raw><![CDATA[SOCCER - AUSTRIA DRAW 0-0 WITH SCOTLAND IN WORLD CUP QUALIFIER . VIENNA 1996-08-31 Austria and Scotland drew 0-0 in a World Cup soccer European group four qualifier on Saturday . Attendance : 29,500 ]]></raw>
+  <nafHeader>
+    <public uri="http://example.com/aida/1108testa" publicId="1108testa"/>
+    <fileDesc title="1108testa" filename="1108testa" creationtime="1996-08-31"/>
+  </nafHeader>
+</NAF>

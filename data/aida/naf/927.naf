@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3">
+  <raw><![CDATA[Salomon & Taylor - 96/97 div forecast . TOKYO 1996-08-29 Year to March 31 , 1997 ( in billions of yen unless specified ) LATEST ACTUAL ( Parent ) FORECAST YEAR-AGO Ord div 10.00 yen 8.00 yen - Commem div - 2.00 yen NOTE - Salomon & Taylor Made Co Ltd manufactures golf clubs and sells ski equipment . ]]></raw>
+  <nafHeader>
+    <public uri="http://example.com/aida/927" publicId="927"/>
+    <fileDesc title="927" filename="927" creationtime="1996-08-29"/>
+  </nafHeader>
+</NAF>

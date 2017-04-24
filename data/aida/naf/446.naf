@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3">
+  <raw><![CDATA[CRICKET - AUSTRALIA 263-7 IN 50 OVERS V ZIMBABWE . COLOMBO 1996-08-26 Australia scored 263-7 in their 50 overs against Zimbabwe in the first day-night limited overs match of the Singer World Series tournament on Monday . ]]></raw>
+  <nafHeader>
+    <public uri="http://example.com/aida/446" publicId="446"/>
+    <fileDesc title="446" filename="446" creationtime="1996-08-26"/>
+  </nafHeader>
+</NAF>

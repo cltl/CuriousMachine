@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3">
+  <raw><![CDATA[CRICKET - AUSTRALIA BEAT WEST INDIES BY FIVE WICKETS . MELBOURNE 1996-12-06 Australia beat West Indies by five wickets in a World Series limited overs match at the Melbourne Cricket Ground on Friday . Scores : West Indies 172 all out in 49.2 overs ( Shivnarine Chanderpaul 54 ) ; Australia 173-5 in 48.4 overs ( Greg Blewett 57 not out ) . ]]></raw>
+  <nafHeader>
+    <public uri="http://example.com/aida/1179testb" publicId="1179testb"/>
+    <fileDesc title="1179testb" filename="1179testb" creationtime="1996-12-06"/>
+  </nafHeader>
+</NAF>

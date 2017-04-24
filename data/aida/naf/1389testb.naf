@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3">
+  <raw><![CDATA[SOCCER - SPANISH FIRST DIVISION SUMMARY . MADRID 1996-12-07 Summary of Saturday 's Spanish first division match : Real Madrid 2 ( Davor Suker 24 , Predrag Mijatovic 48 ) Barcelona 0 . Halftime 1-0 . Attendance 106,000 . ]]></raw>
+  <nafHeader>
+    <public uri="http://example.com/aida/1389testb" publicId="1389testb"/>
+    <fileDesc title="1389testb" filename="1389testb" creationtime="1996-12-07"/>
+  </nafHeader>
+</NAF>

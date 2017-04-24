@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3">
+  <raw><![CDATA[RUGBY LEAGUE - WIGAN BEAT BRADFORD 42-36 IN SEMIFINAL . WIGAN , England 1996-08-31 Result of English rugby league premiership semifinal played on Saturday : Wigan 42 Bradford Bulls 36 ]]></raw>
+  <nafHeader>
+    <public uri="http://example.com/aida/1048testa" publicId="1048testa"/>
+    <fileDesc title="1048testa" filename="1048testa" creationtime="1996-08-31"/>
+  </nafHeader>
+</NAF>

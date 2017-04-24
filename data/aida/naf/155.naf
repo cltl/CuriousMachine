@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3">
+  <raw><![CDATA[SOCCER - GERMAN FIRST DIVISION RESULTS . BONN 1996-08-23 Results of German first division soccer matches on Friday : St Pauli 4 Schalke 4 Hansa Rostock 0 Hamburg 1 ]]></raw>
+  <nafHeader>
+    <public uri="http://example.com/aida/155" publicId="155"/>
+    <fileDesc title="155" filename="155" creationtime="1996-08-23"/>
+  </nafHeader>
+</NAF>

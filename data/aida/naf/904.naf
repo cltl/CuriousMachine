@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3">
+  <raw><![CDATA[Clinton arrives in Chicago on day of re-nomination . CHICAGO 1996-08-28 President Bill Clinton arrived in Chicago on Wednesday as the Democratic convention prepared to re-nominate him for a second four-year term . Clinton flew in by helicopter from Michigan City , Indiana , after ending a four-day , 559-mile trip aboard a campaign train from Washington . ]]></raw>
+  <nafHeader>
+    <public uri="http://example.com/aida/904" publicId="904"/>
+    <fileDesc title="904" filename="904" creationtime="1996-08-28"/>
+  </nafHeader>
+</NAF>

@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3">
+  <raw><![CDATA[Colo . taxable health deal rated Aa2 / VMIG-1 - Moody 's . NEW YORK 1996-08-28 Moody 's Investors Service - Rating Announcement As of 08/26/96 . Issuer : Colorado Health Fac . Auth . National Benevolent Assoc . - Colorado Christian Home Proj . Series 1996 B Taxable State : CO Rating : Aa2 / VMIG 1 Sale Amount : 4,300,000 Expected Sale Date : 08/26/96 ]]></raw>
+  <nafHeader>
+    <public uri="http://example.com/aida/760" publicId="760"/>
+    <fileDesc title="760" filename="760" creationtime="1996-08-28"/>
+  </nafHeader>
+</NAF>

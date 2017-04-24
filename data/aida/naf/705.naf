@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3">
+  <raw><![CDATA[Cricket - India 226-5 in 50 overs v Sri Lanka . COLOMBO 1996-08-28 India scored 226 for five wickets in their 50 overs against Sri Lanka in the second day-night limited overs match of the Singer World Series tournament on Wednesday . ]]></raw>
+  <nafHeader>
+    <public uri="http://example.com/aida/705" publicId="705"/>
+    <fileDesc title="705" filename="705" creationtime="1996-08-28"/>
+  </nafHeader>
+</NAF>

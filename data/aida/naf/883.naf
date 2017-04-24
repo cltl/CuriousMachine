@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3">
+  <raw><![CDATA[Dreyfus Strategic Munis monthly $ 0.056 / shr . NEW YORK 1996-08-29 Monthly Latest Prior Amount $ 0.056 $ 0.056 Pay Sept 27 Record Sept 13 NOTE : Full name of company is Dreyfus Strategic Municipals Inc . ]]></raw>
+  <nafHeader>
+    <public uri="http://example.com/aida/883" publicId="883"/>
+    <fileDesc title="883" filename="883" creationtime="1996-08-29"/>
+  </nafHeader>
+</NAF>

@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3">
+  <raw><![CDATA[Fairview , Texas , $ 1.82 million deal Baa1 - Moody 's . NEW YORK 1996-08-22 Moody 's Investors Service - Rating Announcement As of 08/21/96 . Issuer : Fairview Town State : TX Rating : Baa1 Sale Amount : 1,820,000 Expected Sale Date : 08/27/96 -- U.S. Municipal Desk , 212-859-1650 ]]></raw>
+  <nafHeader>
+    <public uri="http://example.com/aida/101" publicId="101"/>
+    <fileDesc title="101" filename="101" creationtime="1996-08-22"/>
+  </nafHeader>
+</NAF>
