@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3">
+  <raw><![CDATA[SOCCER - BRAZILIAN CHAMPIONSHIP RESULTS . RIO DE JANEIRO 1996-12-05 Results of Brazilian soccer championship semifinal , first leg matches on Thursday . Goias 1 Gremio 3 Portuguesa 1 Atletico Mineiro 0 ]]></raw>
+  <nafHeader>
+    <public uri="http://example.com/aida/1176testb" publicId="1176testb"/>
+    <fileDesc title="1176testb" filename="1176testb" creationtime="1996-12-05"/>
+  </nafHeader>
+</NAF>

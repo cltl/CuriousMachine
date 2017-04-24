@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3">
+  <raw><![CDATA[TENNIS - GRAND SLAM CUP QUARTER-FINAL RESULTS . MUNICH , Germany 1996-12-06 Quarter-final results at the $ 6 million Grand Slam Cup tennis tournament on Friday : Goran Ivanisevic ( Croatia ) beat Mark Woodforde ( Australia ) 6-4 6-4 Yevgeny Kafelnikov ( Russia ) beat Jim Courier ( U.S. ) 2-6 6-4 8-6 ]]></raw>
+  <nafHeader>
+    <public uri="http://example.com/aida/1200testb" publicId="1200testb"/>
+    <fileDesc title="1200testb" filename="1200testb" creationtime="1996-12-06"/>
+  </nafHeader>
+</NAF>

@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3">
+  <raw><![CDATA[SOCCER - RESULT IN SPANISH FIRST DIVISION . MADRID 1996-08-31 Result of game played in the Spanish first division on Saturday : Deportivo Coruna 1 Real Madrid 1 ]]></raw>
+  <nafHeader>
+    <public uri="http://example.com/aida/1106testa" publicId="1106testa"/>
+    <fileDesc title="1106testa" filename="1106testa" creationtime="1996-08-31"/>
+  </nafHeader>
+</NAF>

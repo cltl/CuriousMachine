@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3">
+  <raw><![CDATA[Port of Tauranaga year profit climbs . WELLINGTON 1996-08-26 Year to June 30 . ( million NZ$ unless stated ) Net profit 9.050 vs 6.03 ]]></raw>
+  <nafHeader>
+    <public uri="http://example.com/aida/381" publicId="381"/>
+    <fileDesc title="381" filename="381" creationtime="1996-08-26"/>
+  </nafHeader>
+</NAF>

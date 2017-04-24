@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3">
+  <raw><![CDATA[TENNIS - RESULTS AT TOSHIBA CLASSIC . CARLSBAD , Calif. 1996-08-24 Results from the $ 450,000 Toshiba Classic tennis tournament on Saturday ( prefix number denotes seeding ) : Semifinals : 1 - Arantxa Sanchez Vicario ( Spain ) beat 3 - Jana Novotna ( Czech Republic ) 1-6 , 6-2 6-3 4 - Kimiko Date ( Japan ) beat 2 - Conchita Martinez ( Spain ) 6-2 7-5 . ]]></raw>
+  <nafHeader>
+    <public uri="http://example.com/aida/240" publicId="240"/>
+    <fileDesc title="240" filename="240" creationtime="1996-08-24"/>
+  </nafHeader>
+</NAF>

@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3">
+  <raw><![CDATA[BASKETBALLSOCCER - TROFEJ BEOGRAD TOURNAMENT RESULTS . BELGRADE 1996-08-31 Results in the Trofej Beograd 96 international basketball tournament on Saturday : Fifth place : Benetton ( Italy ) 92 Dinamo ( Russia ) 81 ( halftime 50-28 ) Third place : Alba ( Germany ) 75 Red Star ( Yugoslavia ) 70 ( 42-41 ) ]]></raw>
+  <nafHeader>
+    <public uri="http://example.com/aida/1080testa" publicId="1080testa"/>
+    <fileDesc title="1080testa" filename="1080testa" creationtime="1996-08-31"/>
+  </nafHeader>
+</NAF>

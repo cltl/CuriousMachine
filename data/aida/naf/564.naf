@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3">
+  <raw><![CDATA[WEATHER - Conditions at CIS airports - August 27 . MOSCOW 1996-08-27 No closures of airports due to bad weather are expected in the Commonwealth of Independent States on August 28 and August 29 , the Russian Weather Service said on Tuesday . -- Moscow Newsroom +7095 941 8520 ]]></raw>
+  <nafHeader>
+    <public uri="http://example.com/aida/564" publicId="564"/>
+    <fileDesc title="564" filename="564" creationtime="1996-08-27"/>
+  </nafHeader>
+</NAF>

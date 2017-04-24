@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3">
+  <raw><![CDATA[SOCCER - PORTUGUESE FIRST DIVISION RESULT . LISBON 1996-08-24 Result of a Portuguese first division soccer match on Saturday : Belenenses 2 Boavista 4 ]]></raw>
+  <nafHeader>
+    <public uri="http://example.com/aida/265" publicId="265"/>
+    <fileDesc title="265" filename="265" creationtime="1996-08-24"/>
+  </nafHeader>
+</NAF>

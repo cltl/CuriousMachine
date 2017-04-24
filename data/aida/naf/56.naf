@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3">
+  <raw><![CDATA[SOCCER - DUTCH FIRST DIVISION RESULT . AMSTERDAM 1996-08-22 Result of a Dutch first division match on Thursday : NEC Nijmegen 1 PSV Eindhoven 4 ]]></raw>
+  <nafHeader>
+    <public uri="http://example.com/aida/56" publicId="56"/>
+    <fileDesc title="56" filename="56" creationtime="1996-08-22"/>
+  </nafHeader>
+</NAF>

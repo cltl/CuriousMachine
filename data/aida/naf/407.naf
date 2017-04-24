@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3">
+  <raw><![CDATA[SOCCER - ENGLISH PREMIER LEAGUE SUMMARY . LONDON 1996-08-26 Summary of Monday 's English premier league soccer match : Leeds 1 ( Sharpe 58th minute ) Wimbledon 0 . Halftime 0-0 . Attendance 25,860 . ]]></raw>
+  <nafHeader>
+    <public uri="http://example.com/aida/407" publicId="407"/>
+    <fileDesc title="407" filename="407" creationtime="1996-08-26"/>
+  </nafHeader>
+</NAF>

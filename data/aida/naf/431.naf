@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="v3">
+  <raw><![CDATA[SOCCER - RESULTS OF SOUTH KOREAN PRO-SOCCER GAMES . SEOUL 1996-08-26 Results of South Korean pro-soccer games played on Sunday . Puchon 3 Chonan 0 ( halftime 1-0 ) Pohang 3 Chonbuk 2 ( halftime 0-0 ) Standings after games played on Sunday ( tabulate under - won , drawn , lost , goals for , goals against , points ) : W D L G / F G / A P Puchon 2 1 0 4 0 7 Chonan 2 0 1 9 9 6 Pohang 1 1 1 8 8 4 Ulsan 1 0 1 6 6 3 Anyang 0 3 0 5 5 3 Suwon 0 3 0 3 3 3 Pusan 0 2 0 3 3 2 Chonnam 0 2 1 4 5 2 Chonbuk 0 0 2 2 5 0 ]]></raw>
+  <nafHeader>
+    <public uri="http://example.com/aida/431" publicId="431"/>
+    <fileDesc title="431" filename="431" creationtime="1996-08-26"/>
+  </nafHeader>
+</NAF>
